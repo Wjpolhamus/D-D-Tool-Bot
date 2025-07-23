@@ -36,5 +36,6 @@ Amongst many more coming, the working commands as of now are;
 -add_weapon <br />
 -encounter <br />
 -find_weapon <br />
+
 This bot will not be limited to just commands that help you find your information, but also will implement random
 generators that can help you improvise better with loot, phrases, etc.
