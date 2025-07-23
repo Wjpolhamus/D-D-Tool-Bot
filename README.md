@@ -13,12 +13,12 @@ For testing of the bot I hosted through my own computer. As the bot is developed
 types of following, than I would use services to store the data, and to allow the bot to be running 24/7. 
 But as for the specific Libaries and Software used, here is what I have:
 
--mysql-connector-python /
--discord-py
--Apache2
--mysql
--Mariadb
--phpmyadmin
+-mysql-connector-python <br />
+-discord-py <br />
+-Apache2 <br />
+-mysql <br />
+-Mariadb <br />
+-phpmyadmin <br />
 
 Usage of this bot
 ---
@@ -31,9 +31,10 @@ work its magic and you only need to click commands.
 Commands
 ---
 Amongst many more coming, the working commands as of now are;
--add_character
--add_weapon
--encounter
--find_weapon
+
+-add_character <br />
+-add_weapon <br />
+-encounter <br />
+-find_weapon <br />
 This bot will not be limited to just commands that help you find your information, but also will implement random
 generators that can help you improvise better with loot, phrases, etc.
