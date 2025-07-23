@@ -13,7 +13,7 @@ For testing of the bot I hosted through my own computer. As the bot is developed
 types of following, than I would use services to store the data, and to allow the bot to be running 24/7. 
 But as for the specific Libaries and Software used, here is what I have:
 
--mysql-connector-python
+-mysql-connector-python /
 -discord-py
 -Apache2
 -mysql
