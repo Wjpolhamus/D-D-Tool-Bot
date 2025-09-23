@@ -1,11 +1,5 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(
-    host = "localhost",
-    user = "root",
-    password = "Will1234",
-    database = "D&D"
-)
 
 def executequery(data_,query,fetch = False):
     mycursor = mydb.cursor()
