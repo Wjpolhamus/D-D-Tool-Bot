@@ -1,3 +1,5 @@
+#Dictionaires used to grab input from users on Discord
+
 character_ = [
         ("name", "What is the character's **Name**?"),
         ("class", "What is the character's **Class**"),
@@ -25,6 +27,7 @@ weapon_ = [
     ("type","What **type** is the weapon(Ranged or Melee)")
 ]
 
+#All prompts used for SQL database, please dont hack me lol.
 get_weapons =  "Select * FROM Weapons WHERE GuildID = %s"
 
 get_characters = "Select `Character Name` FROM Characters WHERE GuildID = %s"
