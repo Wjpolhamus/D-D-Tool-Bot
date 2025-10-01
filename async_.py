@@ -4,7 +4,12 @@ from discord.ext import commands
 from prompts import *
 from validation import *
 
+#All of these async functions comunicate with disocrd, and use the prompts.py file
+#queries to reduce bunched up code. Anything within these functions is getting input, 
+#formatting it to be posted into Discord, or the logic to execute queries.
 
+#This function grabs inputs by using dictionaries from prompts.py,
+#
 async def inputs_(interaction:discord.Interaction, prompt_list):
     await interaction.response.send_message(
         "Please answer the following correctly. (You can change it later if you make a mistake)", ephemeral=True)
