@@ -1,6 +1,9 @@
 import mysql.connector
 
-
+#The goal of this is a modular function that is
+#able to execute any type of SQL query, like selecting, 
+#or inserting into a data base. Its so I don't have
+#to create a function for every single type of query.
 def executequery(data_,query,fetch = False):
     mycursor = mydb.cursor()
 
