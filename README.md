@@ -7,6 +7,8 @@ quickly access it and use it. This is a work in progress, more of a project to l
 like security, databases, and modularity in code. I wanted to use this repo to keep track of everything and
 keep it professional.
 
+Note that this bot is still in development. Some things that are included are just for testing reasons as of now.
+
 Libraries + More
 ---
 For testing of the bot I hosted through my own computer. As the bot is developed, if it somehow gains some
