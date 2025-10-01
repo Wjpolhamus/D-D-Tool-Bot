@@ -2,6 +2,7 @@ import dotenv
 import os
 from async_ import *
 
+#Discord Bot Token
 dotenv.load_dotenv()
 token = str(os.getenv("TOKEN"))
 
@@ -10,6 +11,8 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="/", intents=intents)
 
+
+#View for selection box in text channel
 class MyView(discord.ui.View):
     @discord.ui.select(
         placeholder="Choose a command",
@@ -42,6 +45,7 @@ class MyView(discord.ui.View):
             )
         ]
     )
+    #Communicates with Python perform functions
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         choice = select.values[0]
         if choice == "New Campaign":
@@ -71,6 +75,8 @@ async def on_guild_join(guild):
 async def test_channel(ctx):
     guild = ctx.guild
     await text_channel(guild)
+
+#Displays MyView List selection into Discord channel
 @bot.command()
 async def command_list(ctx):
     await ctx.send("Choose a command:", view=MyView())
